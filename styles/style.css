@@ -1,0 +1,34 @@
+html {
+    background-color: #E86A33;
+    font-family: 'Sriracha', cursive;
+        color: #F2E3DB;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #41644A;
+    padding: 30px;
+    border: 10px solid #263A29;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px black;    
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p, li, a{
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 18px;   
+}
