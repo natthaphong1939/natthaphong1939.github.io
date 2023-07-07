@@ -1,7 +1,7 @@
 html {
     background-color: #E86A33;
     font-family: 'Sriracha', cursive;
-        color: #F2E3DB;
+    color: #F2E3DB;
 }
 
 body {
@@ -14,21 +14,33 @@ body {
 
 h1 {
     margin: 0;
-    padding: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 60px;
     text-shadow: 5px 5px black;    
 }
 
 img {
-    width: 90%;
+    width: 20rem;
     display: block;
     margin: 0 auto;
-    padding: 20px;
 }
 
 p, li, a{
     letter-spacing: 1px;
     line-height: 2;
     font-size: 18px;   
+}
+
+figure {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#heading {
+    color: blue;
+}
+
+.popular {
+    border: 4px dotted red;
 }
