@@ -8,7 +8,7 @@ function readInput() {
         if (input && !isNaN(input) && parseInt(input) > 0) {
             lists.push(parseInt(input));
         }
-    } while (parseInt(input) >= 0 || isNaN(input));
+    } while (!input|| isNaN(input) || parseInt(input) >= 0);
 
     return lists;
 }
