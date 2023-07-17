@@ -3,7 +3,7 @@ function readInput() {
     let input;
     
     do {
-        input = prompt("Enter a positive integer number:");1
+        input = prompt("Enter a positive integer number:");
 
         if (input && !isNaN(input) && parseInt(input) > 0) {
             lists.push(parseInt(input));
