@@ -45,24 +45,6 @@ figure {
     border: 4px dotted red;
 }
 
-@media (max-width: 376px) and (orientation: portrait) {
-    body {
-        width: 14rem;
-    }
-    h1 {
-        font-size: 4em;
-    }
-    img {
-        width: 10rem;
-    }
-}
-
-@media (max-width: 668px) and (orientation: landscape) {
-    body {
-        width: 30em;
-    }   
-}
-
 @media (max-width: 821px) and (orientation: portrait) {
     h1 {
         font-size: 6em;
@@ -77,3 +59,25 @@ figure {
         width: 38em;
     }   
 }
+
+@media (max-width: 376px) and (orientation: portrait) {
+    body {
+        width: 14rem;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    img {
+        width: 10rem;
+    }
+    p, li, a{
+        font-size: 1em;   
+    }
+}
+
+@media (max-width: 668px) and (orientation: landscape) {
+    body {
+        width: 30em;
+    }   
+}
+
