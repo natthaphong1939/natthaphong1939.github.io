@@ -17,15 +17,15 @@
 <body>
     <script>
         for (let i = 1; i <= 16; i++) {
-            let myDiv = document.createElement('div');
+            const myDiv = document.createElement('div');
             document.body.appendChild(myDiv);
         }
-        let random = (number) => Math.floor(Math.random() * number);
-        let bgChange = () => rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-        let divs = document.querySelectorAll('div');
-        for (let i = 0; i < divs.length; i++) {
-            divs[i].onclick = (e) => (i % 2 == 0) ? e.target.style.backgroundColor = bgChange() : e.target.style.backgroundColor = "yellow";
-        }
+        const random = (number) => Math.floor(Math.random() * number);
+        const bgChange = () => rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        const divs = document.querySelectorAll('div');
+        divs.forEach((div, i) => {
+            div.onclick = (e) => (i % 2 == 0) ? e.target.style.backgroundColor = bgChange() : e.target.style.backgroundColor = "yellow";
+        });
     </script>
 </body>
 </html>
